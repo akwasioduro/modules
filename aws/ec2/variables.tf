@@ -17,10 +17,11 @@ variable "private_subnet_cidr" {
 }
 
 variable "public_subnet_cidr" {
-  description = "cidr for private subnet"
+  description = "cidr for private subnet"       
   type        = string
   default     = "10.0.2.0/24"
 }
+# ssss
 
 variable "subnet_id" {
   description = "The subnet ID for EC2 instances"
