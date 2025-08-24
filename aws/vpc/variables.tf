@@ -22,7 +22,3 @@ variable "public_subnet_cidr" {
   default     = "10.0.2.0/24"
 }
 
-variable "subnet_id" {
-  description = "The subnet ID for EC2 instances"
-  type        = string
-}
