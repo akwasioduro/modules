@@ -27,3 +27,10 @@ variable "subnet_id" {
   description = "The subnet ID for EC2 instances"
   type        = string
 }
+
+variable "ami_id" {
+  description = "The AMI ID for the EC2 instance"
+  type        = string  
+  default = "data.aws_ami.ubuntu.id"
+  
+}
