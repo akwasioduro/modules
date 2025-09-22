@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "terrabuck" {
   bucket = "kwace-sf-buck"
+  force_destroy = true
 
   tags = {
     Name        = "terraformbucket"
